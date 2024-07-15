@@ -32,7 +32,7 @@ public class Login {
         Thread.sleep(2000);
         
         WebElement E_Mail_Address = driver.findElement(By.id("input-email"));
-        E_Mail_Address.sendKeys("Naveenkumar66@gmail.com");
+        E_Mail_Address.sendKeys("Naveenkumar668@gmail.com");
         Thread.sleep(2000);
         
         WebElement Password = driver.findElement(By.id("input-password"));

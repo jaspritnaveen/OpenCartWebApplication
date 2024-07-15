@@ -29,7 +29,7 @@ public class Register {
         	Lastname.sendKeys("r");
         	
         	WebElement Email = driver.findElement(By.id("input-email"));
-        	Email.sendKeys("Naveenkumar66@gmail.com");
+        	Email.sendKeys("Naveenkumar668@gmail.com");
         	
         	WebElement Telephone = driver.findElement(By.id("input-telephone"));
         	Telephone.sendKeys("6985231202");
