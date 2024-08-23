@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcasespack.TC03_Login">
+        <methods>
+          <include name="TestData2"/>
+          <include name="TestData1"/>
+          <include name="TestData4"/>
+          <include name="TestData3"/>
+          <include name="TestData6"/>
+          <include name="TestData5"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- testcasespack.TC03_Login -->
+      <class name="testcasespack.TC02_Register">
+        <methods>
+          <include name="testInvalidEmailRegistration"/>
+          <include name="setupRegisterPage"/>
+          <include name="testValidRegistration"/>
+          <include name="tearDown"/>
+          <include name="testInvalidPasswordRegistration"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcasespack.TC02_Register -->
+      <class name="testcasespack.TC01_HomePage">
+        <methods>
+          <include name="verifyLogoIsDisplayed"/>
+          <include name="verifyNavigationToLoginPage"/>
+          <include name="verifyIphoneVisibilityInSearchResults"/>
+          <include name="verifyFeaturedSectionIsDisplayed"/>
+          <include name="verifyPageTitle"/>
+          <include name="verifyFeaturedImagesAreDisplayed"/>
+          <include name="verifySearchProductTitle"/>
+          <include name="verifyNavigationToContactPage"/>
+          <include name="verifyFooterIsVisible"/>
+          <include name="verifyCartText"/>
+          <include name="verifyNavigationToRegisterPage"/>
+        </methods>
+      </class> <!-- testcasespack.TC01_HomePage -->
+      <class name="testcasespack.TC05_AddToCart">
+        <methods>
+          <include name="AddtoCart"/>
+          <include name="Login"/>
+          <include name="testDropdownOptionSelection"/>
+          <include name="VerifyCamera"/>
+          <include name="VerifyCart"/>
+        </methods>
+      </class> <!-- testcasespack.TC05_AddToCart -->
+      <class name="testcasespack.TC04_Products">
+        <methods>
+          <include name="Desktop"/>
+          <include name="Login"/>
+          <include name="ComparePrice"/>
+          <include name="CheckCount"/>
+          <include name="VerifyProductVisibility"/>
+          <include name="AddToComparision"/>
+        </methods>
+      </class> <!-- testcasespack.TC04_Products -->
+      <class name="testcasespack.TC06_CheckOut">
+        <methods>
+          <include name="login"/>
+          <include name="VerifyOrderPlaced"/>
+          <include name="ClickButtons"/>
+          <include name="CheckOut"/>
+        </methods>
+      </class> <!-- testcasespack.TC06_CheckOut -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

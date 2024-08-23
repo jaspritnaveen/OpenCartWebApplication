@@ -1,0 +1,1 @@
+{"uuid":"d4291906-b098-41c4-8fae-b495cab83a92","name":"testcasespack.TC03_Login.Login","children":["a479ee25-37a5-4974-9bcc-0dff0f4b2f6a"],"description":"","befores":[{"name":"Login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1724312836662,"stop":1724312837791}],"afters":[],"start":1724312836661,"stop":1724312837791}
