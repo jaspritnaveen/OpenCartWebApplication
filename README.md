@@ -38,5 +38,5 @@ This project involves automating key functionalities of the OpenCart Web Applica
 
 ## **Project Design**
 
-- **Page Object Model (POM):** 📐 Followed the POM design pattern to create a structured and maintainable test automation framework.
+- **Page Object Model (POM):** 📐 Followed the POM design pattern to create a structured and maintainable test automation framework..
 
